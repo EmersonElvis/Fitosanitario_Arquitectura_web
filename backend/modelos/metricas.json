@@ -1,0 +1,30 @@
+{
+  "exactitud_validacion": 0.9976190476190476,
+  "sensibilidad": {
+    "hoja_sana": 1.0,
+    "tizon_tardio": 1.0,
+    "tizon_temprano": 0.995
+  },
+  "matriz_confusion": [
+    [
+      20,
+      0,
+      0
+    ],
+    [
+      0,
+      200,
+      0
+    ],
+    [
+      0,
+      1,
+      199
+    ]
+  ],
+  "clases": [
+    "hoja_sana",
+    "tizon_tardio",
+    "tizon_temprano"
+  ]
+}

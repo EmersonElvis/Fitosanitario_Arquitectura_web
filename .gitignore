@@ -1,0 +1,18 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+# Secretos y configuración local
+.env
+# Datos generados
+backend/almacen/imagenes/*
+!backend/almacen/imagenes/.gitkeep
+*.db
+# Modelos y datos de entrenamiento (se publican como activos de una versión, no en Git)
+*.onnx
+ml/datos/
+# Flutter
+web_app/
+.dart_tool/
+build/

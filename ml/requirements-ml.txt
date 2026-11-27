@@ -1,0 +1,6 @@
+# Instale PyTorch (versión CPU) con:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+numpy>=1.26
+onnx>=1.16
+onnxruntime>=1.18
+pillow>=10.3

@@ -1,0 +1,7 @@
+Coloque aquí el modelo entrenado:
+
+  papa_hojas.onnx   modelo exportado (entrada 1x3x224x224, salida con 3 valores)
+  clases.json       orden de las clases, por ejemplo ["hoja_sana","tizon_tardio","tizon_temprano"]
+
+Si papa_hojas.onnx no existe, el backend usa el MODO DEMOSTRACIÓN (regla de colores, sin IA).
+Para generar estos archivos use ml/entrenar_y_exportar.py. Los archivos .onnx no se suben a Git.
